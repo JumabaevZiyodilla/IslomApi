@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Namoz vaqti</title>
+</head>
+
+<body>
+    <section class="time">
+        <div class="container">
+            <div class="time-box">
+                <h1 class="main-title">O'zbekiston, Namoz vaqtlari</h1>
+                <h2 class="title-time"></h2>
+            </div>
+            <div class="box-btn">
+                <select class="select-time">
+                    <span class="select-span"></span>
+                    <option value="day">Kun</option>
+                    <option value="week">Hafta</option>
+                    <option value="month">Oy</option>
+                </select>
+                <select class="select-region">
+                    <option value="Toshkent">Toshkent</option>
+                    <option value="Andijon">Andijon</option>
+                    <option value="Namangan">Namangan</option>
+                    <option value="Farg'ona">Farg'ona</option>
+                    <option value="Jizzax">Jizzax</option>
+                    <option value="Navoiy">Navoiy</option>
+                    <option value="Samarqand">Samarqand</option>
+                    <option value="Buxoro">Buxoro</option>
+                </select>
+            </div>
+            <ul class="time-list">
+                <li class="time-list__item">
+                    <img class="time-list__img" src="./img/fajr.png" width="120" height="130" alt="Fajr">
+                    <p class="fajr"></p>
+                </li>
+                <li class="time-list__item">
+                    <img class="time-list__img" src="./img/subah.png" width="120" height="130" alt="Sunrise">
+                    <p class="sunrise"></p>
+                </li>
+                <li class="time-list__item">
+                    <img class="time-list__img" src="./img/dhuhr.png" width="120" height="130" alt="Dhuhr">
+                    <p class="dhuhr"></p>
+                </li>
+                <li class="time-list__item">
+                    <img class="time-list__img" src="./img/asr.png" width="120" height="130" alt="Asr">
+                    <p class="asr"></p>
+                </li>
+                <li class="time-list__item">
+                    <img class="time-list__img" src="./img/maghreb.png" width="120" height="130" alt="Maghrib">
+                    <p class="maghrib"></p>
+                </li>
+                <li class="time-list__item">
+                    <img class="time-list__img" src="./img/isha.png" width="120" height="130" alt="Isha">
+                    <p class="isha"></p>
+                </li>
+            </ul>
+            <div class="title-box">
+                <h2 class="time-title"></h2>
+            </div>
+            <table class="time-table">
+
+            </table>
+        </div>
+    </section>
+    <template class="time-template">
+        <tr class="time-tr">
+            <td class="time-day"></td>
+            <td class="time-weekday"></td>
+            <td class="time-fajr"></td>
+            <td class="time-sunrise"></td>
+            <td class="time-dhuhr"></td>
+            <td class="time-asr"></td>
+            <td class="time-maghrib"></td>
+            <td class="time-isha"></td>
+        </tr>
+    </template>
+    <script src="./main.js"></script>
+</body>
+
+</html>
